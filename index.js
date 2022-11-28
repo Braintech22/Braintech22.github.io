@@ -13,7 +13,7 @@ function login() {
     } else {
         alert('Thank You for Login & You are Redirecting to smart factory');
         //Redirecting to other page or webste code or you can set your own html page.
-        window.location = "index.html";
+        window.location = "main.html";
     }
 }
 //Reset Inputfield code.
