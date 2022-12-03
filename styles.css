@@ -23,6 +23,11 @@ body {
     transition: all 0.5s ease;
 }
 
+.logout-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
 .wrapper .sidebar .profile {
     margin-bottom: 30px;
     text-align: center;
@@ -86,7 +91,7 @@ body {
 
 .wrapper .section .top_navbar {
     background: rgb(5, 68, 104);
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -95,6 +100,21 @@ body {
 .wrapper .section .top_navbar .hamburger a {
     font-size: 28px;
     color: #f4fbff;
+}
+
+.wrapper .section .top_navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .section .top_navbar a {
+    color: white;
+}
+
+.wrapper .section .top_navbar span {
+    color: white;
+    height: 50px;
+    width: 50px;
 }
 
 .wrapper .section .top_navbar .hamburger a:hover {
